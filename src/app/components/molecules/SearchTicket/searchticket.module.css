@@ -1,0 +1,14 @@
+.labels {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #293f7c;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.cardReservation {
+  box-shadow: 0px 2px 4px rgba(125, 125, 125, 0.25);
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 1.25rem;
+}

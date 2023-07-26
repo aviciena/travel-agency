@@ -1,0 +1,28 @@
+.container {
+  background: white;
+}
+
+.card {
+  box-shadow: 1px 3px 6px rgba(204, 204, 204, 0.341);
+  border: 1px solid #eceeef;
+  background-color: white;
+  background-clip: border-box;
+}
+
+.priceContainer {
+  padding: 0.25rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.priceWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0 1rem 0;
+  font-size: 14px;
+}
+
+.hr {
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}

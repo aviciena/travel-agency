@@ -1,0 +1,37 @@
+.title {
+  font-size: 14px;
+}
+
+.tncContainer {
+  margin: 1.25rem 0;
+}
+.card {
+  box-shadow: 1px 3px 6px rgba(204, 204, 204, 0.341);
+  border: 1px solid #eceeef;
+  background-color: white;
+  background-clip: border-box;
+}
+
+.tncBody {
+  height: 250px;
+  width: 100%;
+  overflow-y: scroll;
+  flex: 1 1 auto;
+  padding: 1.7rem;
+  color: #919aa1;
+  font-size: 14px;
+}
+
+.tncOl {
+  list-style-type: decimal;
+  padding-left: 2rem;
+  margin-top: 1.25rem;
+}
+
+.tncBody strong, .tncOl b, .tncOl li {
+  font-weight: 300;
+}
+
+.tncOl li {
+  margin-bottom: 0.5rem;
+}

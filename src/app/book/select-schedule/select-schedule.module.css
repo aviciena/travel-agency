@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(52,60,122)
+  )
+  rgb(52,60,122);
+}
+.reservationSection {
+  display: grid;
+  padding: 2rem;
+}
+
+.reservationSection>label {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.scheduleResult{
+  text-align: left;
+}
+
+.scheduleResult > p{
+  font-size: 18px;
+  color: #293f7c;
+  margin-bottom: 1rem;
+}

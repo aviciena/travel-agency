@@ -1,0 +1,57 @@
+.container {
+  background: white;
+  background-clip: border-box;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  box-shadow: 1px 3px 6px rgba(204, 204, 204, 0.341);
+}
+
+.cardBody {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.title {
+  color: #1A1A1A;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  background: #1F9BCF;
+  border: 1px solid #1F9BCF;
+  border-radius: 15px;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 10px;
+}
+
+.tlDot, .tlDotLast {
+  position: relative;
+  border-color: #448bff;
+}
+
+.tlDot:after, .tlDot:before, .tlDotLast:after {
+  content: '';
+  position: absolute;
+  border-color: inherit;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  top: 19px;
+  left: 0%;
+  transform: translateX(-50%);
+}
+
+.tlDot:after {
+  width: 0;
+  height: auto;
+  top: 31px;
+  bottom: -85px;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-radius: 0;
+}

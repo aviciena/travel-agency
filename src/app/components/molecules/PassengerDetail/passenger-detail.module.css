@@ -1,0 +1,23 @@
+.container {
+  margin-top: 2rem;
+}
+
+.wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.wrapper p {
+  color: #919aa1;
+  font-size: 14px;
+}
+
+.wrapperBody {
+  margin-bottom: 0.5rem;
+}
+
+.wrapperBody label {
+  color: #919aa1;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+}

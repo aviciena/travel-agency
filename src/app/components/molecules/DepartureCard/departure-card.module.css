@@ -1,0 +1,24 @@
+.scheduleContainer {
+  height: fit-content;
+  padding: 1.25rem !important;
+  background: linear-gradient(63deg, #293f7c, #031034);
+  box-shadow: 1px 3px 6px rgba(204, 204, 204, 0.341);
+}
+
+.detailText, .destinationWrapper, .priceText {
+  font-size: 16px;
+  color: white;
+}
+
+.destinationWrapper {
+  padding-left: 1.25rem;
+}
+
+.detailTitle {
+  font-size: 20px;
+  padding-bottom: 1.25rem;
+}
+
+.priceText {
+  margin-top: 1.25rem;
+}

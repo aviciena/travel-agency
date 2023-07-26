@@ -1,0 +1,29 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 0px 7px #505050cc;
+}
+
+.infoContainer {
+  display: grid;
+  width: 100%;
+  background: #293f7c;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  padding: 1.2rem 1rem;
+  background: #fff;
+  color: #1A1A1A;
+}
+
+.callcenter {
+  margin-top: 0.5rem;
+}
+
+.callcenter p {
+  color: #919aa1;
+  padding-top: 0.5rem;
+  font-size: 14px;
+}
